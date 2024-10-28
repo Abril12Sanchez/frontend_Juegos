@@ -1,4 +1,4 @@
-const API_GATEWAY_URL = 'https://api-gateway-juegos.onrender.com'; // Cambia a la URL de tu gateway en Render al desplegar
+const API_GATEWAY_URL = 'process.env.API_GATEWAY_URL'; // Cambia a la URL de tu gateway en Render al desplegar
 
 // Iniciar sesión
 document.getElementById('loginBtn').addEventListener('click', async () => {
