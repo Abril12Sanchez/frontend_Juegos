@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renta de Juegos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Renta de Juegos</h1>
+    </header>
+
+    <main>
+        <section id="auth">
+            <h2>Iniciar Sesión</h2>
+            <input type="email" id="email" placeholder="Correo electrónico">
+            <input type="password" id="password" placeholder="Contraseña">
+            <button id="loginBtn">Iniciar Sesión</button>
+            <p id="loginMessage"></p>
+        </section>
+
+        <section id="games">
+            <h2>Lista de Juegos</h2>
+            <ul id="gameList"></ul>
+        </section>
+
+        <section id="payment">
+            <h2>Realizar Pago</h2>
+            <input type="text" id="gameId" placeholder="ID del Juego">
+            <button id="paymentBtn">Pagar</button>
+            <p id="paymentMessage"></p>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
